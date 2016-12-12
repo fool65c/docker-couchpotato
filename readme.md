@@ -11,7 +11,7 @@ You must export the Config dir and data dir before running
  export COUCHPOTATO_CONFIG_DIR=/var/lib/application/couchpotato/config
  export COUCHPOTATO_DATA_DIR=/var/lib/application/couchpotato/data
  export COUCHPOTATO_DOWNLOAD_DIR=/srv/download
- export COUCHPOTATO_MOVIE_DIR=/srv/movies
+ export COUCHPOTATO_MOVIE_DIR=/srv/media/movies
  ```
 
  To start run the following
