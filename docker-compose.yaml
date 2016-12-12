@@ -1,6 +1,6 @@
 version: '2'
 services:
-  sabnzbd:
+  couchpotato:
     build: .
     ports:
       - "10001:5050"
