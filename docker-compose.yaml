@@ -1,0 +1,12 @@
+version: '2'
+services:
+  sabnzbd:
+    build: .
+    ports:
+      - "10001:5050"
+    volumes:
+      - ${COUCHPOTATO_CONFIG_DIR}:/config/
+      - ${COUCHPOTATO_DATA_DIR}:/app_data/
+      - ${COUCHPOTATO_DOWNLOAD_DIR}:/data/download
+      - ${COUCHPOTATO_MOVIE_DIR}:/data/movies
+    restart: always
